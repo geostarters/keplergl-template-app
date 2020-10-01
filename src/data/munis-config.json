@@ -1,0 +1,198 @@
+{
+    "version": "v1",
+    "config": {
+        "visState": {
+            "filters": [],
+            "layers": [
+                {
+                    "id": "zhs8hji",
+                    "type": "geojson",
+                    "config": {
+                        "dataId": "zx0nbmuqe",
+                        "label": "municipis20k",
+                        "color": [
+                            255,
+                            203,
+                            153
+                        ],
+                        "columns": {
+                            "geojson": "_geojson"
+                        },
+                        "isVisible": true,
+                        "visConfig": {
+                            "opacity": 0.89,
+                            "strokeOpacity": 0.8,
+                            "thickness": 0.5,
+                            "strokeColor": [
+                                255,
+                                251,
+                                230
+                            ],
+                            "colorRange": {
+                                "name": "ColorBrewer BuPu-9",
+                                "type": "sequential",
+                                "category": "ColorBrewer",
+                                "colors": [
+                                    "#f7fcfd",
+                                    "#e0ecf4",
+                                    "#bfd3e6",
+                                    "#9ebcda",
+                                    "#8c96c6",
+                                    "#8c6bb1",
+                                    "#88419d",
+                                    "#810f7c",
+                                    "#4d004b"
+                                ]
+                            },
+                            "strokeColorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "radius": 10,
+                            "sizeRange": [
+                                0,
+                                10
+                            ],
+                            "radiusRange": [
+                                0,
+                                50
+                            ],
+                            "heightRange": [
+                                0,
+                                500
+                            ],
+                            "elevationScale": 18.2,
+                            "stroked": true,
+                            "filled": true,
+                            "enable3d": true,
+                            "wireframe": false
+                        },
+                        "hidden": false,
+                        "textLabel": [
+                            {
+                                "field": null,
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "size": 18,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor": "start",
+                                "alignment": "center"
+                            }
+                        ]
+                    },
+                    "visualChannels": {
+                        "colorField": {
+                            "name": "cens",
+                            "type": "integer"
+                        },
+                        "colorScale": "quantile",
+                        "sizeField": null,
+                        "sizeScale": "linear",
+                        "strokeColorField": null,
+                        "strokeColorScale": "quantile",
+                        "heightField": {
+                            "name": "cens",
+                            "type": "integer"
+                        },
+                        "heightScale": "linear",
+                        "radiusField": null,
+                        "radiusScale": "linear"
+                    }
+                }
+            ],
+            "interactionConfig": {
+                "tooltip": {
+                    "fieldsToShow": {
+                        "zx0nbmuqe": [
+                            {
+                                "name": "superficie",
+                                "format": null
+                            },
+                            {
+                                "name": "municipi",
+                                "format": null
+                            },
+                            {
+                                "name": "cens",
+                                "format": null
+                            }
+                        ]
+                    },
+                    "compareMode": false,
+                    "compareType": "absolute",
+                    "enabled": true
+                },
+                "brush": {
+                    "size": 0.5,
+                    "enabled": false
+                },
+                "geocoder": {
+                    "enabled": false
+                },
+                "coordinate": {
+                    "enabled": false
+                }
+            },
+            "layerBlending": "normal",
+            "splitMaps": [],
+            "animationConfig": {
+                "currentTime": null,
+                "speed": 1
+            }
+        },
+        "mapState": {
+            "bearing": 2.400000000000002,
+            "dragRotate": true,
+            "latitude": 41.71647168604205,
+            "longitude": 1.277338512858468,
+            "pitch": 46.68341708542714,
+            "zoom": 7.451941083083048,
+            "attributionControl":false,
+            "customAttribution":"ICGC",
+            "isSplit": false
+        },
+        "mapStyle": {
+            "styleType": "wstrfuf",
+            "topLayerGroups": {
+                "label": true
+            },
+            "visibleLayerGroups": {
+                "label": true,
+                "road": true,
+                "building": true,
+                "water": true,
+                "land": true
+            },
+            "threeDBuildingColor": [
+                61.09414265424493,
+                71.52185776591327,
+                86.1206589222489
+            ],
+            "mapStyles": {
+                "wstrfuf": {
+                    "accessToken": null,
+                    "custom": true,
+                    "icon": "'https://openicgc.github.io/img/icgc.gif",
+                    "id": "wstrfuf",
+                    "label": "ICGC-nit",
+                    "url": "https://geoserveis.icgc.cat/contextmaps/icgc.json"
+                }
+            }
+        }
+    }
+}
