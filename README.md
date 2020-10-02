@@ -1,4 +1,4 @@
-# Template  Map Viewer based based on Kepler.GL
+# Template  Map Viewer based on Kepler.GL
  
   [KeplerGL](https://kepler.gl/),  ReactJs + Webpack template
 
