@@ -1,4 +1,18 @@
 {
+  
+  
+  "name": "keplergl-template-app",
+  "version": "1.0.0",
+  "description": "Template for developing webmappping apps using Kepler.GL",
+  "main": "index.js",
+  "keywords": [
+    "Kepler.GL",
+    "ReactJs",
+    "Vector-Tiles"
+  ],
+  
+  "author": "@geostarters",
+  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --progress --hot --open",
     "start-local": "webpack-dev-server --env.es6 --progress --hot --open",
