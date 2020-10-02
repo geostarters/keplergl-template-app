@@ -4,17 +4,16 @@
 
 
 
-Composed:
+### Sources:
 
-    * Kepler.GL api reference https://docs.kepler.gl/docs/api-reference
+[Kepler.GL api reference](https://docs.kepler.gl/docs/api-reference)
 
-    * ContextMaps Vector-Tiles MapBox Styles from [OpenICGC](https://openicgc.github.io/)
+ContextMaps Vector-Tiles MapBox Styles from [OpenICGC](https://openicgc.github.io/)
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-![alt text](./visor.png "Map Template")
 
 ## Get started
+
+*Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
 Clone and install the dependencies...
 
@@ -28,6 +27,8 @@ npm install
 npm run start
 
 ```
+
+![alt text](./visor.png "Map Template")
 
 ## Building and running in production mode
 
